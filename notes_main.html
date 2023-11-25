@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dated Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="notes-container">
+      <h2>Notes</h2>
+
+      <form>
+        <label for="new-note">New: </label>
+        <br />
+        <textarea id="new-note" name="new-note"></textarea>
+        <button type="button" onclick="addNote()">Save</button>
+      </form>
+
+      <ul id="list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

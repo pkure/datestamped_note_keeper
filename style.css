@@ -1,0 +1,16 @@
+.notes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+#newnote-box {
+  font-size: 14px; /* Adjust the font size as needed */
+  height: 150px; /* Adjust the height of the input field */
+  width: 100%;
+  padding: 20px; /* Add padding for better readability */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Potential fonts: Montserrat, Poppins, Oswald, Josfin Sans (Via Google Fonts)*/
